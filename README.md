@@ -2,7 +2,7 @@
 
 Microservices are architectures that divide the services provided in a large-scale project into small-scale services.
 
-# How Microservices Communicate
+# How Microservices Communicate ?
 
 RabbitMQ messaging technology was used in this project for microservices to communicate with each other.
 With the help of EventBus, a message is sent from one service to another. It includes SendCommand, Publish and Subscribe methods in EventBus.
